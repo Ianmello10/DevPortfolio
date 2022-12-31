@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { BsFillMoonFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
-import { useTheme } from "next-themes";
+import { useTheme, systemTheme } from "next-themes";
 function NavBar() {
   
   const { theme, setTheme } = useTheme();
