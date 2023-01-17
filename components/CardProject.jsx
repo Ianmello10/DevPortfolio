@@ -4,8 +4,8 @@ import Image from "next/image";
 function CardProject({ ProjetoName, img, tag1, tag2, tag3, descricao, link }) {
   return (
     <>
-      <div className="w-full  flex flex-col md:w-[70%] md:mx-auto lg:mx-0 lg:flex-row lg:w-full  mb-14 mt-10">
-        <div className="w-full lg:w-[50%] h-[240px]">
+      <div className="w-full   flex flex-col md:w-[70%] md:mx-auto lg:mx-0 lg:flex-row lg:w-full  mb-14 mt-10">
+        <div className="w-full lg:w-[50%] h-[240px] shadow-md ">
           <Image className="w-full h-full" src={img} alt="imagem projeto" />
         </div>
 

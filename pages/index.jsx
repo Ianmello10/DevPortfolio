@@ -77,7 +77,7 @@ export default function Home() {
 
         <div className="w-full flex flex-col justify-between mt-6 lg:flex-row">
           <div
-            className=" w-[90%] md:w-[70%] mx-auto mb-6 lg:w-[23%] border-2
+            className="shadow-md  w-[90%] md:w-[70%] mx-auto mb-6 lg:w-[23%] border-2
            border-gray-600 rounded-md  h-42 py-2 px-2"
           >
             <h2 className="text-xl">HTML 5</h2>
@@ -86,12 +86,12 @@ export default function Home() {
               utilizada para criar páginas da Web.
             </p>
 
-            <div className="w-full flex justify-end px-2 mt-2">
+            <div className="w-full  flex justify-end px-2 mt-2">
               <IoLogoHtml5 className="w-6 h-6" />
             </div>
           </div>
 
-          <div className=" w-[90%] md:w-[70%] mx-auto mb-6  lg:w-[23%]  border-2   border-gray-600 rounded-md   h-42 py-2 px-2">
+          <div className=" w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2   border-gray-600 rounded-md   h-42 py-2 px-2">
             <h2 className="text-xl">CSS</h2>
             <p className="text-sm">
               CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
+          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
             <h2 className="text-xl">JavaScript</h2>
             <p className="text-sm">
               JavaScript é uma linguagem de programação de script client-side,
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
+          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
             <h2 className="text-xl">React js</h2>
             <p className="text-sm">
               React é uma biblioteca JavaScript de código aberto criada pelo
@@ -133,7 +133,7 @@ export default function Home() {
       <section className="w-[90%] mx-auto py-4 mt-24 ">
         <h2
           id="projetos"
-          className="text-3xl pl-1 md:text-center lg:text-left lg:px-6"
+          className="text-3xl pl-1 md:text-center lg:text-left lg:px-0"
         >
           Projetos Recentes
         </h2>
