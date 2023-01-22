@@ -179,16 +179,7 @@ export default function Home() {
           link={"https://todo-react-neon.vercel.app/"}
         />
 
-        <CardProject
-          ProjetoName="Calculadora"
-          img={calcjs}
-          tag1={"Html"}
-          tag2={"Css"}
-          tag3={"JavaScript"}
-          descricao={`O projeto consiste em uma calculadora simples feita com JavaScript, HTML e CSS que permite aos usuários realizar cálculos básicos. A interface de usuário foi criada com HTML e CSS e a lógica de cálculo foi implementada com JavaScript.
-           O objetivo era colocar em prática conhecimentos adquiridos`}
-          link={"https://ianmello10.github.io/Calculator-app/"}
-        />
+        
       </section>
 
       <footer className="w-[90%] mx-auto py-4 mt-24">
