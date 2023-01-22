@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[50%] mx-auto lg:w-[250px] mt-14 lg:mt-0 h-[300px]   lg:mr-10">
+          <div className="w-[90%] md:w-[50%] mx-auto lg:w-[250px] mt-14 lg:mt-0 h-[300px]   lg:mr-5">
             <Image className="w-full h-full" src={avatar} alt="avatar vector" />
           </div>
         </div>
@@ -78,52 +78,55 @@ export default function Home() {
         <div className="w-full flex flex-col justify-between mt-6 lg:flex-row">
           <div
             className="shadow-md  w-[90%] md:w-[70%] mx-auto mb-6 lg:w-[23%] border-2
-           border-gray-600 rounded-md  h-42 py-2 px-2"
+           border-gray-600 rounded-md h-auto py-2 px-2 flex flex-col justify-between"
           >
             <h2 className="text-xl">HTML 5</h2>
-            <p className="text-sm">
+            <p className="text-sm mt-2">
               HTML (Hypertext Markup Language) é uma linguagem de marcação
               utilizada para criar páginas da Web.
             </p>
 
-            <div className="w-full  flex justify-end px-2 mt-2">
+            <div className="w-full flex justify-end h-12   items-center mt-2">
               <IoLogoHtml5 className="w-6 h-6" />
             </div>
           </div>
 
-          <div className=" w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2   border-gray-600 rounded-md   h-42 py-2 px-2">
+          <div className=" w-[90%] md:w-[70%] mx-auto mb-6 
+          shadow-md flex flex-col justify-between lg:w-[23%]  border-2   border-gray-600 rounded-md  h-auto py-2 px-2">
             <h2 className="text-xl">CSS</h2>
-            <p className="text-sm">
+            <p className="text-sm mt-2">
               CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada
               em conjunto com HTML para criar páginas da Web modernas e
               responsivas.
             </p>
 
-            <div className="w-full flex justify-end px-2 mt-2">
+            <div className="w-full flex justify-end mt-2 h-12  items-center ">
               <IoLogoCss3 className="w-6 h-6" />
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
+          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md 
+          flex flex-col justify-between lg:w-[23%]  border-2 border-gray-600 rounded-md  h-auto  py-2 px-2">
             <h2 className="text-xl">JavaScript</h2>
-            <p className="text-sm">
+            <p className="text-sm mt-2">
               JavaScript é uma linguagem de programação de script client-side,
               ou seja, é executada diretamente no navegador do usuário.
             </p>
 
-            <div className="w-full flex justify-end px-2 mt-2">
+            <div className="w-full flex justify-end px-2 mt-2 h-12  items-center">
               <IoLogoJavascript className="w-6 h-6" />
             </div>
           </div>
 
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%]  border-2 border-gray-600 rounded-md  h-42 py-2 px-2">
+          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%] 
+          flex flex-col justify-between  border-2 border-gray-600 rounded-md  h-auto py-2 px-2">
             <h2 className="text-xl">React js</h2>
             <p className="text-sm">
               React é uma biblioteca JavaScript de código aberto criada pelo
               Facebook para desenvolver interfaces de usuário.
             </p>
 
-            <div className="w-full flex justify-end px-2 mt-2">
+            <div className="w-full flex justify-end px-2 mt-2 h-12   items-center">
               <GrReactjs className="w-6 h-6" />
             </div>
           </div>
