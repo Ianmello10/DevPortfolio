@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import avatar from "../public/avatar.svg";
 import coindesk from "../public/coindesk.png";
 import todoreact from "../public/todoreact.png";
+import CardStack from "../components/CardStack";
 import calcjs from "../public/calcjs.png";
 import productPage from "../public/productPage.png";
 import Image from "next/image";
@@ -76,60 +77,42 @@ export default function Home() {
         </h2>
 
         <div className="w-full flex flex-col justify-between mt-6 lg:flex-row">
-          <div
-            className="shadow-md  w-[90%] md:w-[70%] mx-auto mb-6 lg:w-[23%] border-2
-           border-gray-600 rounded-md h-auto py-2 px-2 flex flex-col justify-between"
+          <CardStack
+            titulo={"HTML 5"}
+            description={
+              " HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para criar páginas da Web."
+            }
           >
-            <h2 className="text-xl">HTML 5</h2>
-            <p className="text-sm mt-2">
-              HTML (Hypertext Markup Language) é uma linguagem de marcação
-              utilizada para criar páginas da Web.
-            </p>
+            <IoLogoHtml5 className="w-6 h-6" />
+          </CardStack>
 
-            <div className="w-full flex justify-end h-12   items-center mt-2">
-              <IoLogoHtml5 className="w-6 h-6" />
-            </div>
-          </div>
+          <CardStack
+            titulo={"CSS"}
+            description={
+              " CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada em conjunto com HTML para criar páginas da Web modernas e responsivas."
+            }
+          >
+            <IoLogoCss3 className="w-6 h-6" />
+          </CardStack>
 
-          <div className=" w-[90%] md:w-[70%] mx-auto mb-6 
-          shadow-md flex flex-col justify-between lg:w-[23%]  border-2   border-gray-600 rounded-md  h-auto py-2 px-2">
-            <h2 className="text-xl">CSS</h2>
-            <p className="text-sm mt-2">
-              CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada
-              em conjunto com HTML para criar páginas da Web modernas e
-              responsivas.
-            </p>
+          <CardStack
+            titulo={"JavaScript"}
+            description={
+              "JavaScript é uma linguagem de programação de script client-side,ou seja, é executada diretamente no navegador do usuário."
+            }
+          >
+             <IoLogoJavascript className="w-6 h-6" />
+          </CardStack> 
 
-            <div className="w-full flex justify-end mt-2 h-12  items-center ">
-              <IoLogoCss3 className="w-6 h-6" />
-            </div>
-          </div>
 
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md 
-          flex flex-col justify-between lg:w-[23%]  border-2 border-gray-600 rounded-md  h-auto  py-2 px-2">
-            <h2 className="text-xl">JavaScript</h2>
-            <p className="text-sm mt-2">
-              JavaScript é uma linguagem de programação de script client-side,
-              ou seja, é executada diretamente no navegador do usuário.
-            </p>
-
-            <div className="w-full flex justify-end px-2 mt-2 h-12  items-center">
-              <IoLogoJavascript className="w-6 h-6" />
-            </div>
-          </div>
-
-          <div className="w-[90%] md:w-[70%] mx-auto mb-6 shadow-md  lg:w-[23%] 
-          flex flex-col justify-between  border-2 border-gray-600 rounded-md  h-auto py-2 px-2">
-            <h2 className="text-xl">React js</h2>
-            <p className="text-sm">
-              React é uma biblioteca JavaScript de código aberto criada pelo
-              Facebook para desenvolver interfaces de usuário.
-            </p>
-
-            <div className="w-full flex justify-end px-2 mt-2 h-12   items-center">
-              <GrReactjs className="w-6 h-6" />
-            </div>
-          </div>
+          <CardStack
+            titulo={"React js"}
+            description={
+              "React é uma biblioteca JavaScript de código aberto criada pelo  Facebook para desenvolver interfaces de usuário."
+            }
+          >
+               <GrReactjs className="w-6 h-6" />
+          </CardStack>
         </div>
       </section>
 
@@ -181,8 +164,6 @@ export default function Home() {
            com pouco código CSS. `}
           link={"https://todo-react-neon.vercel.app/"}
         />
-
-        
       </section>
 
       <footer className="w-[90%] mx-auto py-4 mt-24">
